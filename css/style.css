@@ -17,6 +17,10 @@
 	.crimson {
 		padding-bottom: 18px; 
 		font-size: 16px; 
+	}
+	.text .img-range .psd-files .aqua .navigation {
+		margin-left: 0;
+		margin-right: 0;
 	}		
 }
 @media (min-width:320px){
@@ -36,6 +40,10 @@
 		padding-top: 33px;
 		padding-bottom: 30px; 
 		font-size: 16px; 
+	}
+	.text .img-range .psd-files .aqua .navigation {
+		margin-left: 0;
+		margin-right: 0;
 	}									
 }
 @media (min-width:640px){
@@ -55,6 +63,10 @@
 		padding-top: 68px;
 		padding-bottom: 64px;
 		font-size: 22px; 
+	}
+	.text .img-range .psd-files .aqua .navigation {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 @media (min-width:980px){
