@@ -46,6 +46,7 @@
 		font-size: 16px; 
 	}
 	.aqua h2 {
+		width: 320px; 
 		font-size: 30px;
 		line-height: 65px;
 	}
@@ -73,7 +74,7 @@
 		font-size: 22px; 
 	}
 	.aqua h2 {
-		font-size: 40px;
+		font-size: 40px;width: 440px; 
 		line-height: 65px;
 	}
 	.aqua h4 {
@@ -100,6 +101,7 @@
 		font-size: 30px; 
 	}
 	.aqua h2 {
+		width: 680px; 
 		font-size: 50px;
 		line-height: 65px;
 	}
@@ -127,6 +129,7 @@
 		font-size: 32px; 
   }
   .aqua h2 {
+  	width: 680px; 
 		font-size: 60px;
 		line-height: 65px;
 	}
@@ -157,19 +160,16 @@ a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19b4c6', endColorstr='#078aa4',GradientType=0 ); 
 }
 .aqua h2 {
-	width: 680px; /*width: 680px;*/
 	color: #fff;
 	margin-top: 200px;
 	font-family: "Montserrat-Regular", sans-serif;
-	/*font-size: 60px;/**//**//**/
 	line-height: 65px;/**//**//**/
 }
 .aqua h4 {
 	opacity: 0.8;
 	color: #fff;
 	font-family: "Montserrat-Regular", sans-serif;
-	/*font-size: 34px;/**//**//**/
-	line-height: 65px;/**//**//**/
+	line-height: 65px;
 }
 .aqua span {
 	font-family: "quicksand-bold", sans-serif;
