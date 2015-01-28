@@ -213,6 +213,7 @@ a {
 }
 #navbar-name {
 	color: #ffffff;
+	margin-left: 20px;
 }
 #navbar {
 	margin-bottom: -20px;
@@ -232,3 +233,7 @@ a {
 	line-height: 44px;
 	font-family: "Montserrat-Regular", sans-serif;
 }
+.text-block div{
+	margin: 0 auto;
+}
+
