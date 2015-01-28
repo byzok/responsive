@@ -232,3 +232,6 @@ a {
 	line-height: 44px;
 	font-family: "Montserrat-Regular", sans-serif;
 }
+.text-block div{
+	margin: 0 auto;
+}
