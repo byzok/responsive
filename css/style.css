@@ -22,6 +22,11 @@
 		background-color: red;
 	  max-width: 320px;
 	}
+	.gray {
+		padding-top: 33px;
+		font-size: 12px; 
+		padding-bottom:35px; 
+	}
 	.crimson {
 		padding-bottom: 18px; 
 		font-size: 16px; 
@@ -71,7 +76,7 @@
 	}
 	.gray {
 		padding-top: 68px;
-		font-size: 18px; 
+		font-size: 14px; 
 		padding-bottom: 70px; 
 	}
 	.crimson {
