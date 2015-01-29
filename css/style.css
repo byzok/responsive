@@ -17,7 +17,7 @@
 	src:url("fonts/Montserrat-Regular.ttf") format("truetype");
 	src:url("fonts/Montserrat-Regular.svg") format("svg");
 }
-@media (min-width:225px){
+@media screen, handheld and (min-width:225px){
 	.pet {
 		background-color: red;
 	  max-width: 320px;
@@ -27,7 +27,10 @@
 		font-size: 16px; 
 	}
 }
-@media (min-width:320px){
+@media screen, handheld and (min-width:320px){
+	img {
+		width: 100%;
+	}
 	.pet {
 		background-color: orange;
 		max-width: 640px;
@@ -56,9 +59,9 @@
 	}
 	.text-block .row {
 	margin-bottom: 45px;
-}		
+	}		
 }
-@media (min-width:640px){
+@media screen, handheld and (min-width:640px){
 	.pet {
 		background-color: yellow;
 		max-width: 980px;
@@ -86,9 +89,13 @@
 	}
 	.text-block .row {
 	margin-bottom: 100px;
+	}
 }
-}
-@media (min-width:980px){
+@media screen and (min-width:980px){
+	#navbar-name {
+		visibility: hidden;
+		display: none;
+	}
 	.pet {
 		background-color: pink;
 		max-width: 1024px;
@@ -119,7 +126,11 @@
 	margin-bottom: 100px;
 	}
 }
-@media (min-width:1024px){
+@media screen and (min-width:1024px){
+	#navbar-name {
+		visibility: hidden;
+		display: none;
+	}
 	.pet{
 		background-color: green;
 		min-width: 1024px;
@@ -193,7 +204,6 @@ a {
 .psd-files .row{
 	background-color: #27212c;
 }
-
 .gray {
 	color: #9282a0;
 	background-color: #27212c;
@@ -236,4 +246,3 @@ a {
 .text-block div{
 	margin: 0 auto;
 }
-
