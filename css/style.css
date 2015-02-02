@@ -16,6 +16,8 @@
 	src:url("fonts/Montserrat-Regular.woff") format("woff");
 	src:url("fonts/Montserrat-Regular.ttf") format("truetype");
 	src:url("fonts/Montserrat-Regular.svg") format("svg");
+}body {
+	min-width: 320px;
 }
 @media screen, handheld and (min-width:225px) {
 	.gray {
@@ -37,8 +39,10 @@
 	}
 	.gray {
 		padding-top: 33px;
-		font-size: 12px; 
-		padding-bottom:35px;
+		padding-bottom:30px;
+	}
+	.gray span {
+		font-size: 14px;
 	}
 	.crimson {
 		padding-top: 33px;
@@ -62,10 +66,12 @@
 	.psd-files {
 		max-height: 150px;
 	}
+	.gray span{
+		font-size: 16px; 
+	}
 	.gray {
 		padding-top: 68px;
-		font-size: 14px; 
-		padding-bottom: 70px;
+		padding-bottom: 50px;
 	}
 	.crimson {
 		padding-top: 68px;
@@ -92,9 +98,14 @@
 	.psd-files {
 		max-height: 233px;
 	}
-	.gray {
+	.gray span{
 		padding-top: 105px;
 		font-size: 28px; 
+		padding-bottom: 105px;
+	}
+	.gray {
+		padding-top: 105px;
+		
 		padding-bottom: 105px;
 	}
 	.crimson {
@@ -123,9 +134,14 @@
 	.psd-files {
 		max-height: 245px; 
 	}
-	.gray {
+	.gray span{
 		padding-top: 110px;
 		font-size: 28px;
+		padding-bottom: 113px;
+	}
+	.gray {
+		padding-top: 110px;
+		
 		padding-bottom: 113px;
 	}
 	.crimson {
