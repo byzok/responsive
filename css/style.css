@@ -173,6 +173,7 @@ a {
 	padding-right: 0 !important;
 }
 .aqua {
+	overflow: hidden;
 	height: 576px;
 	background: #19b4c6; /* Old browsers */
 	background: -moz-linear-gradient(top, #19b4c6 39%, #078aa4 100%); /* FF3.6+ */
@@ -209,10 +210,14 @@ a {
 	background-color: #27212c;
 }
 .gray {
+	max-height: 245px;
+	overflow: hidden;
 	color: #9282a0;
 	background-color: #27212c;
 }
 .crimson {
+	max-height: 245px;
+	overflow: hidden;
 	text-align: center;
 	background-color: #bc3183;
 	font-family: "quicksand-bold", sans-serif;
@@ -226,6 +231,7 @@ a {
 	color: #ffffff;
 }
 .navigation {
+	overflow: hidden;
 	background-color: #373c3f;
 }
 #navbar-collapse-1 a {
@@ -254,5 +260,6 @@ a {
 	font-family: "Montserrat-Regular", sans-serif;
 }
 .text-block div {
+	overflow: hidden;
 	margin: 0 auto;
 }
